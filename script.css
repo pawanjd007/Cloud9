@@ -1,0 +1,175 @@
+/* Reset some default styles */
+
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background-color: #040404;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    top: 0px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  .account {
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content:flex-end; /* To evenly space the buttons */
+    align-items: center; /* To vertically align the buttons */
+  }
+  .account button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Just for styling purposes */
+  .login-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin: 0px 15px;
+  }
+  .signup-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+  }
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+}
+
+div,main{
+    font-size: larger;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+main{
+    text-align: left;
+    padding: 20px;
+}
+
+footer {
+    background-color: #040404;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+    position: relative;
+    bottom: -200px;
+}
+
+.ig{
+    margin: 0;
+    padding: 0;
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(12px) brightness(60%); /* Adjust the blur amount as needed */
+    z-index: -1; /* Ensure the background is behind other content */
+}
+a{
+    color: rgb(255, 247, 0);
+}
+
+
+#mine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bb{
+    border: 2px solid white;
+    width: 650px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#lo{
+    display: flex;
+    justify-content: center;
+}
+.charu{
+    margin: 0;
+    padding: 2px;
+    display: flex;
+
+}
+nav{
+    display: flex;
+    position: relative;
+    left: 750px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+div.account{
+    position: relative;
+    left: 1211px;
+}
+div.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    filter: invert();
+}
+.calculator{
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 15px;
+}
