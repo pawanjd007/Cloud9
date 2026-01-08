@@ -20,6 +20,7 @@ This project focuses on providing credit lending solutions for MSME entrepreneur
 - Deploy the system using cloud infrastructure.  
 
 ## Contributors
+[ Javvadi Durga Pawan](https://github.com/pawanjd007)
 [Arun Reddy](https://github.com/Arun-reddy22)  
 
 ## License
